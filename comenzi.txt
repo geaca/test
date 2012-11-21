@@ -1,0 +1,63 @@
+git init
+git config --global user.name "Spyre"
+git config --global user.email "spirescualex@gmail.com"
+
+
+git log
+______________________
+
+
+git status
+git add
+git status
+git commit
+
+git status
+git commit 
+git status
+git add
+git status
+git reset
+git status
+
+git commit -a STAGE EVERYTHING
+===============================================================
+FLASH STICK:
+git remote add flashstick2 D:\development\exercitii\
+git push flashstick2 master
+
+* file is modified *
+
+git commit -a
+git push flashstick2
+======================================================
+SERVER:
+git init --bare --shared
+
+
+git remote add origin spyre@paradox:/export/git/ProjectServer
+git push origin master
+
+
+// get changes:
+git fetch origin
+git rebase origin
+
+
+====
+1:
+git remote add origin https://github.com/spyre/repo1
+git pull origin master 
+2:
+git config user.name "Second Spyre"
+git clone ADRESA
+MODIFICA FISIER
+git commit -a
+git push origin
+1:
+MODIFICA FISIER
+git commit -a
+git push origin =====> FAIL
+===>> git fetch origin
+git rebase origin/master ===>> FAIL (merge) => git add FISIER
+git rebase --continue
